@@ -8,19 +8,19 @@ The six datasets are the following:
     Filetype: .pickle
     Size: 11743 items
     Sources: Twitter.com, www.textfiles.com/humor/, http://www.funnyshortjokes.com/, http://www.laughfactory.com/jokes, http://goodriddlesnow.com/jokes/, http://onelinefun.com and several other, smaller contributors
-    Short description: This dataset contains all humorous jokes that were gathered in the process, which can be used as positive samples for humor recognition tasks. Jokes that had a Jaccard similarity coefficient higher than or equal to 0.9 were removed  in the deduplication process (Deduplication.py). This dataset was used to compile datasets 1.1 and 1.2. The first contains just the jokes in this dataset shorter than 140 letters(!), whereas the latter consists of all jokes containing more than 140 letters. Disclaimer: Some of the jokes may be racist, homophobic or insulting in another way.
+    Short description: This dataset contains all humorous jokes that were gathered in the process, which can be used as positive samples for humor recognition tasks. Jokes that had a Jaccard similarity coefficient higher than or equal to 0.9 were removed  in the deduplication process (Deduplication.py). This dataset was used to compile datasets 1.1 and 1.2. The first contains just the jokes in this dataset shorter than 140 characters, whereas the latter consists of all jokes containing more than 140 letters. Disclaimer: Some of the jokes may be racist, homophobic or insulting in another way.
 
 ## 1.1. Oneliners
 
     Filename: short_oneliners
     Filetype: .pickle
-    Size: 10511 items
+    Size: 10076 items
         
 ## 1.2. Longer jokes
 
     Filename: longer_jokes
     Filetype: .pickle
-    Size: 1232 items
+    Size: 1667 items
     
 ## 2. Reuters Headlines
 
