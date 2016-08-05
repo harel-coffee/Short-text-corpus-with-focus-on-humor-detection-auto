@@ -26,9 +26,9 @@ The six datasets are the following:
 
     Filename: reuters
     Filetype: .pickle
-    Size: 9614 items
+    Size: 10142 items
     Sources: Twitter
-    Short description: This dataset contains headlines tweeted by international press agency Reuters. Retweets were excluded for pre-processing purposes and to ensure the original source is known. Since the Twitter API only allows us to retrieve up to 3200 tweets (including retweets) from a single user account, we scraped tweets from multiple Reuters Twitter accounts: "reuters", "ReutersWorld", "ReutersUK" and "ReutersScience". The first covers Reuters' top news, the second one news from all over the world, the third one news from the UK and the last one covers science. The tweets from Reuters were gathered between 18-07-2016 and 02-08-2016. The headlines that had a Jaccard similarity coefficient higher than or equal to 0.9 in comparison to other headlines in the set were removed in the deduplication process (Deduplication.py).
+    Short description: This dataset contains headlines tweeted by international press agency Reuters. Retweets were excluded for pre-processing purposes and to ensure the original source is known. Since the Twitter API only allows us to retrieve up to 3200 tweets (including retweets) from a single user account, we scraped tweets from multiple Reuters Twitter accounts: "reuters", "ReutersWorld", "ReutersUK" and "ReutersScience". The first covers Reuters' top news, the second one news from all over the world, the third one news from the UK and the last one covers science. The tweets from Reuters were gathered between 18-07-2016 and 05-08-2016. The headlines that had a Jaccard similarity coefficient higher than or equal to 0.9 in comparison to other headlines in the set were removed in the deduplication process (Deduplication.py).
 
 ## 3. English Proverbs
 
@@ -40,12 +40,11 @@ The six datasets are the following:
 
 ## 4. Wikipedia sentences
 
-    Filename: wiki_sentences
+    Filename: short_wiki_sentences
     Filetype: .pickle
-    Size: 11743 items
+    Size: 10076 items
     Sources: http://www.cs.pomona.edu/~dkauchak/simplification/
-    Short description: Visit source URL for information on the data itself. This file contains a random selection of wikipedia sentences from the source file (the unsimplified one, to be specific). The random selection was done using "wiki_sentence_selector.py".
-
+    Short description: Visit source URL for information on the data itself. This file contains a random selection of wikipedia sentences from the source file (the unsimplified one, to be specific) that were shorter than - or equal to- 140 characters. The random selection was done using "wiki_sentence_selector.py".
 
 #The Python files:
 These files are primarily here so that anyone can repeat the data gathering process and/or understand it.
